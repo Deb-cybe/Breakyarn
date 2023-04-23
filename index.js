@@ -2,7 +2,7 @@ const {db}=require('./util/admin');
 const express=require('express');
 const cors=require('cors');
 const mongoose=require('mongoose');
-const port=  60118;
+const port=  30514;
 
 const NamesModel=require('./models/Names');
 const app=express(); 

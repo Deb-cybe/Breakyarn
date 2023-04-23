@@ -15,7 +15,7 @@
   },
   "scripts": {
     "client": "yarn --cwd client run start",
-    "server": "nodemon index",
+    "server": "node index.js",
     "start": "concurrently \"yarn run server\" \"yarn run client\""
   },
   "engines": {
